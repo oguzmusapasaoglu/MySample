@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\MyCore.Cache\MyCore.Cache.csproj" />
+    <ProjectReference Include="..\..\Helper\Helper.Maps\Helper.Maps.csproj" />
+    <ProjectReference Include="..\..\Helper\Helper.Validations\Helper.Validations.csproj" />
+    <ProjectReference Include="..\MySample.RoleDomain.Libraries\MySample.RoleDomain.Libraries.csproj" />
+    <ProjectReference Include="..\MySample.RoleDomain.Repositores\MySample.RoleDomain.Repositores.csproj" />
+  </ItemGroup>
+
+</Project>

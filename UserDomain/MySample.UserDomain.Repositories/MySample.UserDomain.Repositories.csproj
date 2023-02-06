@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\MyCore.Cache\MyCore.Cache.csproj" />
+    <ProjectReference Include="..\..\Core\MyCore.Common\MyCore.Common.csproj" />
+    <ProjectReference Include="..\..\Core\MyCore.Dapper\MyCore.Dapper.csproj" />
+    <ProjectReference Include="..\..\Core\MyCore.TokenManager\MyCore.TokenManager.csproj" />
+    <ProjectReference Include="..\MySample.UserDomain.Libraries\MySample.UserDomain.Libraries.csproj" />
+  </ItemGroup>
+
+</Project>

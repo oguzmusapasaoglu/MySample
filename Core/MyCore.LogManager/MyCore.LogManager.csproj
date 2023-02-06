@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Attributes\**" />
+    <Compile Remove="Base\**" />
+    <Compile Remove="Factory\**" />
+    <Compile Remove="Helper\**" />
+    <Compile Remove="Interfaces\**" />
+    <EmbeddedResource Remove="Attributes\**" />
+    <EmbeddedResource Remove="Base\**" />
+    <EmbeddedResource Remove="Factory\**" />
+    <EmbeddedResource Remove="Helper\**" />
+    <EmbeddedResource Remove="Interfaces\**" />
+    <None Remove="Attributes\**" />
+    <None Remove="Base\**" />
+    <None Remove="Factory\**" />
+    <None Remove="Helper\**" />
+    <None Remove="Interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCore.Common\MyCore.Common.csproj" />
+    <ProjectReference Include="..\MyCore.Elastic\MyCore.Elastic.csproj" />
+  </ItemGroup>
+
+</Project>
